@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "roboto";
+}
+
+header,
+footer,
+#hero-section {
+  background-color: #1f2937;
+  color: white;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+#nav-cluster {
+  display: flex;
+  gap: 15px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+#hero-section > p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+#hero-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 150px;
+  gap: 30px;
+}
+
+.hero-section-word-cluster {
+  width: 450px;
+}
+
+#hero-signup-btn {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-top: 20px;
+}
+
+#image-placeholder {
+  color: white;
+  background-color: gray;
+  width: auto;
+  padding: 150px;
+}
+
+.signup-btns {
+  appearance: none;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  padding: 6px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#mid-section {
+}
+
+#mid-section > h2 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+#mid-section-box-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 100px;
+}
+
+.boxes {
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  border-style: solid;
+  border-color: #3882f6;
+}
+
+.mid-box-paragraphs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
